@@ -1,0 +1,5 @@
+var counter = 2018;
+while (counter < 2023) {
+    console.log(counter);
+    counter = counter + 1;
+}
