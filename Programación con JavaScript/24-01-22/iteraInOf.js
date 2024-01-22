@@ -21,15 +21,14 @@ bird.hasFeathers = true;
 
 function birdCan() {
     for (const can of Object.keys(bird)) {
-        console.log(can+":",bird[can]);
+        console.log(can+": "+bird[can]);
     }
 }
 birdCan();
 // Task 3
 function animalCan() {
     for (const ani in bird) {
-        console.log(ani+":",bird[ani]);
+        console.log(ani+": "+bird[ani]);
     }
 }
 animalCan();
-
